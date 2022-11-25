@@ -37,18 +37,10 @@ Junior Software Engineer with practical experience on front-end technologies. So
   - [repository](https://github.com/rolling-scopes-school/veronchi-JSFE2022Q3/tree/rss-gem-puzzle/rss-gem-puzzle)
 - [Online zoo](https://rolling-scopes-school.github.io/veronchi-JSFE2022Q3/online-zoo/index.html)
   - [repository](https://github.com/rolling-scopes-school/veronchi-JSFE2022Q3/tree/online-zoo)
-
-> HTML/CSS
-
-- [Lasles - preview](https://veronchi.github.io/lasles/)
-  - [GitHub](https://github.com/Veronchi/lasles)
-- [Drive Moto - preview](https://veronchi.github.io/drive-moto/)
-  - [GitHub](https://github.com/Veronchi/drive-moto)
-
-> HTML/CSS, JavaScript, Working with API, Fetching asynchronous data
-
-- [Zoo project - preview](https://veronchi.github.io/zoo-project/dist/)
-  - [GitHub](https://github.com/Veronchi/zoo-project)
+- eCommerce-BackEnd
+  - [repository](https://github.com/Veronchi/eCommerce-backEnd)
+- eCommerce-FrontEnd
+  - [repository](https://github.com/Veronchi/eCommerce-FrontEnd)
 
 > React, React Hooks
 
@@ -78,6 +70,18 @@ Junior Software Engineer with practical experience on front-end technologies. So
   - [GitHub](https://github.com/Veronchi/stripe-submenus)
 - [Cart - preview](https://veronchi.github.io/cart/build/)
   - [GitHub](https://github.com/Veronchi/cart)
+
+> HTML/CSS, JavaScript
+
+- [Zoo project - preview](https://veronchi.github.io/zoo-project/dist/)
+  - [GitHub](https://github.com/Veronchi/zoo-project)
+
+> HTML/CSS
+
+- [Lasles - preview](https://veronchi.github.io/lasles/)
+  - [GitHub](https://github.com/Veronchi/lasles)
+- [Drive Moto - preview](https://veronchi.github.io/drive-moto/)
+  - [GitHub](https://github.com/Veronchi/drive-moto)
 
 ---
 
