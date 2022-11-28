@@ -11,7 +11,7 @@
 
 ### About me:
 
-Junior Software Engineer with practical experience on front-end technologies. Solid knowledge of HTML/CSS, JavaScript. Experience working with React, Vue, NodeJS, Express, Sequelize. Use tools such as Git, WebPack, Babel, ESlint. Interpersonal communication and collaboration skills.
+Junior Software Engineer with practical experience on front-end technologies. Solid knowledge of HTML/CSS(SCSS/SASS), JavaScript. Experience working with React, Vue, NodeJS, Express, Sequelize, BEM. Use tools such as Git, WebPack, Babel, ESlint, Figma. Interpersonal communication and collaboration skills.
 
 ### Skills:
 
@@ -23,6 +23,7 @@ Junior Software Engineer with practical experience on front-end technologies. So
 - Webpack
 - Git
 - GitHab
+- Figma
 
 ---
 
