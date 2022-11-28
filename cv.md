@@ -31,6 +31,7 @@ Junior Software Engineer with practical experience on front-end technologies. So
 
 > Last projects
 
+- [ToDo VueJS](https://veronchi.github.io/ToDo-VueJS/index)
 - [Songbird](https://rolling-scopes-school.github.io/veronchi-JSFE2022Q3/songbird/)
   - [repository](https://github.com/rolling-scopes-school/veronchi-JSFE2022Q3/tree/songbird)
 - [Puzzle](https://rolling-scopes-school.github.io/veronchi-JSFE2022Q3/rss-gem-puzzle/)
