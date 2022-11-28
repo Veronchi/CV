@@ -90,14 +90,7 @@ Junior Software Engineer with practical experience on front-end technologies. So
 
 - BIP - University of Law
   - Economic law
-- HTML Academy
-  - HTML/CSS
-- Self-study
-  - JavaScript
-  - React
-  - NodeJs
-  - Express
-  - Sequalize
+- RS School
 - Streamline courses
 - Skyeng courses
 
