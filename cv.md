@@ -31,6 +31,7 @@ Junior Software Engineer with practical experience on front-end technologies. So
 ### Experience:
 
 > Last projects
+
 - [Trello-clone](https://trello-clone-appl.netlify.app/welcome)
   - [repository](https://github.com/Veronchi/Rs-Clone/tree/develop)
 - Trello-clone-api
