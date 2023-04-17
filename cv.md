@@ -11,15 +11,16 @@
 
 ### About me:
 
-Junior Software Engineer with practical experience on front-end technologies. Solid knowledge of HTML/CSS(SCSS/SASS), JavaScript. Experience working with React, Vue, NodeJS, Express, Sequelize, BEM. Use tools such as Git, WebPack, Babel, ESlint, Figma. Interpersonal communication and collaboration skills.
+Junior Software Engineer with practical experience on front-end technologies. Solid knowledge of HTML/CSS(SCSS/SASS), JavaScript. Experience working with React, Vue, NodeJS, Express, Sequelize. Use tools such as Git, WebPack, Babel, ESlint, Figma. Interpersonal communication and collaboration skills.
 
 ### Skills:
 
 - HTML5
 - CSS (SASS/SCSS)
 - JavaScript
+- TypeScript
 - React
-- Vue
+- Redux Toolkit
 - Webpack
 - Git
 - GitHab
@@ -30,7 +31,12 @@ Junior Software Engineer with practical experience on front-end technologies. So
 ### Experience:
 
 > Last projects
-
+- [Trello-clone](https://trello-clone-appl.netlify.app/welcome)
+  - [repository](https://github.com/Veronchi/Rs-Clone/tree/develop)
+- Trello-clone-api
+  - [repository](https://github.com/Veronchi/trello-clone-api)
+- [Online store](https://veronchi.github.io/online-store/)
+  - [repository](https://github.com/Veronchi/online-store/tree/develop)
 - [ToDo VueJS](https://veronchi.github.io/ToDo-VueJS/index)
   - [repository](https://github.com/Veronchi/ToDo-VueJS)
 - [Songbird](https://rolling-scopes-school.github.io/veronchi-JSFE2022Q3/songbird/)
@@ -44,7 +50,7 @@ Junior Software Engineer with practical experience on front-end technologies. So
 - eCommerce-FrontEnd
   - [repository](https://github.com/Veronchi/eCommerce-FrontEnd)
 
-> React, React Hooks
+> React
 
 - [Birthday reminder - preview](https://veronchi.github.io/birthday-reminder/build/)
   - [repository](https://github.com/Veronchi/birthday-reminder)
@@ -82,8 +88,6 @@ Junior Software Engineer with practical experience on front-end technologies. So
 
 - [Lasles - preview](https://veronchi.github.io/lasles/)
   - [repository](https://github.com/Veronchi/lasles)
-- [Drive Moto - preview](https://veronchi.github.io/drive-moto/)
-  - [repository](https://github.com/Veronchi/drive-moto)
 
 ---
 
