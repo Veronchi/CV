@@ -1,0 +1,16 @@
+:root {
+  height: 100vh;
+}
+
+body {
+  min-width: 320px;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'LatoRegular';
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
