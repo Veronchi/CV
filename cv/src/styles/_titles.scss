@@ -1,0 +1,26 @@
+@import './constants.scss';
+
+@mixin main-title {
+  @include lato;
+  font-size: $fs-xxl;
+  font-weight: $fw-bold;
+  line-height: 40px;
+  color: $primary-text;
+  margin: 0;
+}
+
+@mixin subtitle {
+  font-size: $fs-m;
+  line-height: 30px;
+  color: $secondory-text;
+  margin: 0;
+}
+
+@mixin label {
+  color: $secondory-text;
+  font-size: $fs-xs;
+  background-color: $label-background;
+  border-radius: 3px;
+  padding: 1px 3px;
+  box-shadow: 3px 3px 10px $box-shadow;
+}

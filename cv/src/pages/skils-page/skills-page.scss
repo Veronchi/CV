@@ -1,0 +1,35 @@
+@import '@/styles/titles';
+@import '@/styles/constants.scss';
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 5%;
+
+  &__subsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  &__title {
+    @include main-title;
+    font-size: $fs-m;
+    line-height: 30px;
+    margin-right: 3%;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__item {
+    @include label;
+  }
+}

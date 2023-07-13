@@ -1,13 +1,4 @@
-@font-face {
-  font-family: 'LatoRegular';
-  src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'LatoBold';
-  src: url('../assets/fonts/Lato-Bold.ttf') format('truetype');
-  font-style: normal;
-  font-weight: 600;
-}
+@include font('Lato', 'Lato-Regular', 400, normal);
+@include font('Lato', 'Lato-Bold', 600, normal);
+@include font('OpenSansMedium', 'OpenSans_Condensed-Medium', 500, normal);
+@include font('OpenSansBold', 'OpenSans_Condensed-Medium', 700, normal);

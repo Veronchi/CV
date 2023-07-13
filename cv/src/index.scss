@@ -1,12 +1,45 @@
+@import './styles/normalize.scss';
+@import './styles/reset.scss';
+@import './styles/constants.scss';
+
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url('./assets/fonts/#{$file_name}.woff2') format('woff2'),
+      url('./assets/fonts/#{$file_name}.ttf') format('truetype');
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+@import './styles/fonts.scss';
+
 :root {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 body {
-  min-width: 320px;
-  height: 100vh;
+  width: max(100%, 320px);
+  height: 100%;
   box-sizing: border-box;
-  font-family: 'LatoRegular';
+  @include open-sans;
+  font-size: $fs-s;
+  font-weight: $fw-regular;
+  line-height: 20px;
+  color: $primary-text;
+  background: rgb(254, 121, 185);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 121, 185, 0.5032606792717087) 0%,
+    rgba(173, 0, 255, 0.4976584383753502) 25%,
+    rgba(36, 137, 255, 0.5032606792717087) 35%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background-repeat: no-repeat;
+  padding: 0 3%;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 #root {
