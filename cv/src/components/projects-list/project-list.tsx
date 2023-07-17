@@ -9,11 +9,13 @@ export const ProjectList: FC = () => {
       component="ul"
       sx={{
         display: 'flex',
+        justifyContent: 'center',
+        gap: '20px',
         flexWrap: 'wrap',
         '& > :not(style)': {
           m: 1,
-          width: 300,
-          height: 200,
+          width: 400,
+          height: 230,
         },
       }}
     >
