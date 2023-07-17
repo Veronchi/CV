@@ -1,10 +1,11 @@
 import { FC } from 'react';
 import { Languages, Technologies, Tools } from '@/utils/constants';
-import './skills-page.scss';
+import './skills.scss';
 
-export const SkillsPage: FC = () => {
+export const Skills: FC = () => {
   return (
     <section className="skills">
+      <h2 className="title">Skills & tools</h2>
       <div className="skills__subsection">
         <h3 className="skills__title">Languages</h3>
         <ul className="skills__list">

@@ -1,6 +1,5 @@
 export enum Paths {
   MAIN = '/',
-  SKILLS = 'skills',
   PROJECTS = 'projects',
 }
 

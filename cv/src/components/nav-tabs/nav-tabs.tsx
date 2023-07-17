@@ -10,7 +10,7 @@ interface LinkTabProps {
   to: string;
 }
 
-const { MAIN, SKILLS, PROJECTS } = Paths;
+const { MAIN, PROJECTS } = Paths;
 
 const LinkTab = (props: LinkTabProps) => <Tab component={Link} {...props} />;
 
@@ -24,8 +24,7 @@ export const NavTabs: FC = () => {
   return (
     <Box sx={{ width: '100%' }}>
       <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
-        <LinkTab label="Home" to={MAIN} />
-        <LinkTab label="Skills & Tools" to={SKILLS} />
+        <LinkTab label="About Me" to={MAIN} />
         <LinkTab label="Projects" to={PROJECTS} />
       </Tabs>
     </Box>

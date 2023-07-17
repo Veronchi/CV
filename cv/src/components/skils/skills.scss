@@ -4,18 +4,22 @@
 .skills {
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  padding: 5%;
+  padding: 20px 0;
 
   &__subsection {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 10px;
+    gap: 7px;
+    padding-left: 20px;
+
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
   }
 
   &__title {
-    @include main-title;
+    @include subtitle;
     font-size: $fs-m;
     line-height: 30px;
     margin-right: 3%;
@@ -32,4 +36,9 @@
   &__item {
     @include label;
   }
+}
+
+.title {
+  @include section-title;
+  margin-bottom: 10px;
 }

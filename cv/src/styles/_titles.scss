@@ -24,3 +24,9 @@
   padding: 1px 3px;
   box-shadow: 3px 3px 10px $box-shadow;
 }
+
+@mixin section-title {
+  @include main-title;
+  font-size: $fs-l;
+  line-height: 30px;
+}
