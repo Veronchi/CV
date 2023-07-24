@@ -1,0 +1,16 @@
+.certificates {
+  padding: 20px 0;
+
+  &__content {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding-left: 4%;
+  }
+
+  &__img {
+    width: 370px;
+    height: 230px;
+  }
+}

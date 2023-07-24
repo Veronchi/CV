@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Divider } from '@mui/material';
-import { Intro, Skills } from '@/components';
+import { Certificates, Intro, Skills } from '@/components';
 
 export const IntroPage: FC = () => {
   return (
@@ -12,6 +12,8 @@ export const IntroPage: FC = () => {
       <Skills />
 
       <Divider variant="middle" />
+
+      <Certificates />
     </>
   );
 };
