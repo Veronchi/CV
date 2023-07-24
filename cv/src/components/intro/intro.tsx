@@ -1,6 +1,6 @@
 import { FC } from 'react';
+import { Contact } from '..';
 import cvImg from '@/assets/img/cv-img.png';
-import { Contact } from '../contact/contact';
 import './intro.scss';
 
 export const Intro: FC = () => {
