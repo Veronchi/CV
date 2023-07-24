@@ -4,7 +4,8 @@ import './projects-page.scss';
 
 export const ProjectsPage: FC = () => {
   return (
-    <section className="projects-page">
+    <section className="projects">
+      <h2 className="projects__title">Portfolio</h2>
       <Timeline />
     </section>
   );

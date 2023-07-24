@@ -1,3 +1,12 @@
-.projects-page {
-  padding-top: 80px;
+@import '@/styles/titles';
+
+.projects {
+  padding-top: 50px;
+
+  &__title {
+    @include main-title;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 60px;
+  }
 }
