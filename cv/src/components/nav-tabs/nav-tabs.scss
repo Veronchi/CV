@@ -1,0 +1,24 @@
+@import '@/styles/constants.scss';
+
+.nav {
+  display: flex;
+  gap: 10px;
+
+  &__tab {
+    @include lato;
+    font-size: $fs-xs;
+    font-weight: $fw-medium;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    padding: 16px 12px;
+
+    &_active {
+      border-bottom: 2px solid $primary-text;
+    }
+
+    &:active {
+      background-color: $box-shadow;
+    }
+  }
+}

@@ -1,32 +1,24 @@
-import { FC, SyntheticEvent, useState } from 'react';
-import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+import { FC } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Paths } from '@/utils/constants';
-import { Link } from 'react-router-dom';
-
-interface LinkTabProps {
-  label: string;
-  to: string;
-}
+import './nav-tabs.scss';
 
 const { MAIN, PROJECTS } = Paths;
 
-const LinkTab = (props: LinkTabProps) => <Tab component={Link} {...props} />;
-
 export const NavTabs: FC = () => {
-  const [value, setValue] = useState(0);
+  const location = useLocation();
+  const path = location.pathname;
 
-  const handleChange = (_event: SyntheticEvent, newValue: number) => {
-    setValue(newValue);
-  };
+  const isProjects = path.includes('/portfolio');
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
-        <LinkTab label="About Me" to={MAIN} />
-        <LinkTab label="Projects" to={PROJECTS} />
-      </Tabs>
-    </Box>
+    <nav className="nav">
+      <Link className={`nav__tab ${isProjects ? '' : 'nav__tab_active'}`} to={MAIN}>
+        About Me
+      </Link>
+      <Link className={`nav__tab ${isProjects ? 'nav__tab_active' : ''}`} to={PROJECTS}>
+        Portfolio
+      </Link>
+    </nav>
   );
 };
