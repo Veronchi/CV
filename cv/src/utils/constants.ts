@@ -1,6 +1,6 @@
 export enum Paths {
   MAIN = '/',
-  PROJECTS = 'projects',
+  PROJECTS = 'portfolio',
 }
 
 export enum Languages {
@@ -14,6 +14,7 @@ export enum Technologies {
   REACT = 'React',
   RTK = 'Redux Toolkit',
   RTKQUERY = 'RTK Query',
+  FORM = 'React Hook Form',
   EXPRESS = 'Express',
   PSQL = 'PostgreSQL',
   WEBPACK = 'Webpack',
@@ -24,5 +25,13 @@ export enum Technologies {
 export enum Tools {
   GIT = 'Git',
   VSCODE = 'VS Code',
+  VITE = 'Vite',
+  ESLINT = 'Eslint',
+  PRETTIER = 'Prettier',
   FIGMA = 'Figma'
+}
+
+export enum Testing {
+  RTL = 'React Testing Library',
+  CYPRESS = "Cypress"
 }
