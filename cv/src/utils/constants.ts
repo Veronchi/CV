@@ -25,6 +25,7 @@ export enum Technologies {
 export enum Tools {
   GIT = 'Git',
   VSCODE = 'VS Code',
+  POSTMAN = 'Postman',
   VITE = 'Vite',
   ESLINT = 'Eslint',
   PRETTIER = 'Prettier',

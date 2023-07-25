@@ -36,9 +36,8 @@ export const Contact: FC = () => {
         label="zhigunova1995@gmail.com"
         icon={<MailOutlineIcon color="primary" />}
         sx={{
-          backgroundColor: '#f1f5f9',
           boxShadow: '0px 0px 5px rgba(100, 116, 139, 0.24)',
-          color: '#64748b',
+          color: '#000',
         }}
       />
     </div>
