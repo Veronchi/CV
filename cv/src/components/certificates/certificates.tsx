@@ -8,8 +8,20 @@ export const Certificates: FC = () => {
     <section className="certificates">
       <h2 className="title">Certificates</h2>
       <div className="certificates__content">
-        <img className="certificates__img" src={stage1_2} alt="certificate" />
-        <img className="certificates__img" src={stage3} alt="certificate" />
+        <a
+          href="https://app.rs.school/certificate/otgbpvq9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="certificates__img" src={stage1_2} alt="certificate" />
+        </a>
+        <a
+          href="https://app.rs.school/certificate/4f3v5kxt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="certificates__img" src={stage3} alt="certificate" />
+        </a>
       </div>
     </section>
   );
