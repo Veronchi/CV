@@ -1,4 +1,4 @@
-@import '@/styles/titles';
+@import '@/styles/typography';
 
 .intro {
   display: flex;
@@ -23,6 +23,7 @@
   }
 
   &__text {
+    @include text;
     text-align: left;
     font-size: $fs-m;
     line-height: 30px;

@@ -12,11 +12,11 @@ export const Timeline: FC = () => {
           <VerticalTimelineElement
             key={id}
             className="vertical-timeline-element project"
-            contentStyle={{ background: '#fff', color: '#334155' }}
-            contentArrowStyle={{ borderRight: '7px solid #f1f5f9' }}
             date={name}
+            iconClassName="project__icon"
             iconStyle={{ background: iconColor, color: '#fff' }}
             icon={icon}
+            dateClassName="project__name"
           >
             <p className="project__setup">{desc}</p>
             <img className="project__img" src={src} alt={name} />

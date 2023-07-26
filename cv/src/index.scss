@@ -19,6 +19,40 @@
   min-height: 100vh;
 }
 
+@media (prefers-color-scheme: dark) {
+  html {
+    --primaryBackgroundColor: linear-gradient(
+      180deg,
+      rgba(124, 60, 155, 1) 0%,
+      rgba(36, 93, 159, 1) 20%,
+      rgba(0, 0, 0, 0.8) 45%,
+      rgba(15, 23, 42, 1) 75%
+    );
+  }
+}
+
+html {
+  --primaryBackgroundColor: linear-gradient(
+    180deg,
+    rgba(254, 121, 185, 0.5032606792717087) 0%,
+    rgba(173, 0, 255, 0.4976584383753502) 25%,
+    rgba(36, 137, 255, 0.5032606792717087) 35%,
+    rgba(255, 255, 255, 1) 50%
+  );
+
+  background-repeat: no-repeat;
+
+  &.dark {
+    --primaryBackgroundColor: linear-gradient(
+      180deg,
+      rgba(124, 60, 155, 1) 0%,
+      rgba(36, 93, 159, 1) 20%,
+      rgba(0, 0, 0, 0.8) 45%,
+      rgba(15, 23, 42, 1) 75%
+    );
+  }
+}
+
 body {
   width: max(100%, 320px);
   height: 100%;
@@ -28,15 +62,7 @@ body {
   font-weight: $fw-regular;
   line-height: 20px;
   color: $primary-text;
-  background: rgb(254, 121, 185);
-  background: linear-gradient(
-    180deg,
-    rgba(254, 121, 185, 0.5032606792717087) 0%,
-    rgba(173, 0, 255, 0.4976584383753502) 25%,
-    rgba(36, 137, 255, 0.5032606792717087) 35%,
-    rgba(255, 255, 255, 1) 50%
-  );
-  background-repeat: no-repeat;
+  background: var(--primaryBackgroundColor);
   padding: 0 3%;
   padding-bottom: 20px;
   margin: 0;

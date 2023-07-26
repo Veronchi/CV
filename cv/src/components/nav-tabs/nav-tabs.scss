@@ -11,14 +11,26 @@
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     cursor: pointer;
-    padding: 16px 12px;
+    padding: 0 12px 16px;
+
+    @include whenDark {
+      color: $dark-text-primary;
+    }
 
     &_active {
       border-bottom: 2px solid $primary-text;
+
+      @include whenDark {
+        border-bottom: 2px solid $dark-text-primary;
+      }
     }
 
     &:active {
       background-color: $box-shadow;
+
+      @include whenDark {
+        background-color: $box-shadow;
+      }
     }
   }
 }

@@ -7,6 +7,10 @@
   line-height: 40px;
   color: $primary-text;
   margin: 0;
+
+  @include whenDark {
+    color: $dark-text-primary;
+  }
 }
 
 @mixin subtitle {
@@ -14,6 +18,10 @@
   line-height: 30px;
   color: $secondory-text;
   margin: 0;
+
+  @include whenDark {
+    color: $dark-text-secondery;
+  }
 }
 
 @mixin label {
@@ -23,10 +31,21 @@
   border-radius: 3px;
   padding: 1px 3px;
   box-shadow: 3px 3px 10px $box-shadow;
+
+  @include whenDark {
+    background-color: $dark-label-background;
+    color: $dark-text-primary;
+  }
 }
 
 @mixin section-title {
   @include main-title;
   font-size: $fs-l;
   line-height: 30px;
+}
+
+@mixin text {
+  @include whenDark {
+    color: $dark-text-secondery;
+  }
 }
