@@ -1,0 +1,37 @@
+@import '../../styles/typography';
+
+.contacts {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 20px;
+
+  &__item {
+    @include contact;
+    border: 1px solid $primary-dark;
+
+    @include whenDark {
+      border: 1px solid $dark-text-primary;
+    }
+
+    &.linkedIn {
+      border: 1px solid #0a66c2;
+      color: #0a66c2;
+
+      @include whenDark {
+        border: 1px solid #0a66c2;
+        color: #0a66c2;
+      }
+    }
+
+    &.mail {
+      border: 1px solid transparent;
+      box-shadow: 3px 3px 10px $box-shadow;
+
+      @include whenDark {
+        border: 1px solid transparent;
+      }
+    }
+  }
+}

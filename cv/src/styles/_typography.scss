@@ -49,3 +49,18 @@
     color: $dark-text-secondery;
   }
 }
+
+@mixin contact {
+  display: flex;
+  font-size: $fs-xs;
+  color: $primary-text;
+  align-items: center;
+
+  background-color: transpareont;
+  border-radius: 15px;
+  padding: 3px 7px;
+
+  @include whenDark {
+    color: $dark-text-primary;
+  }
+}

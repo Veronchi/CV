@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Contact } from '..';
+import { Contacts } from '..';
 import cvImg from '@/assets/img/cv-img.png';
 import './intro.scss';
 
@@ -19,7 +19,7 @@ export const Intro: FC = () => {
           communication and collaboration skills.
         </p>
 
-        <Contact />
+        <Contacts />
       </div>
     </section>
   );
