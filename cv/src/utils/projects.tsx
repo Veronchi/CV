@@ -10,13 +10,6 @@ import HtmlIcon from '@mui/icons-material/Html';
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import { ReactIcon } from '@/assets/icons/react-icon';
 
-interface IconTypeProps {
-  fontSize: string;
-  color: string;
-}
-
-type IconType = ReactElement<IconTypeProps>;
-
 export type Project = {
   id: string;
   name: string;
@@ -25,7 +18,7 @@ export type Project = {
   deploy: string;
   repo?: string;
   backend?: string;
-  icon?: IconType;
+  icon?: ReactElement;
   iconColor?: string;
 };
 
