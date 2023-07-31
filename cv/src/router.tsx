@@ -1,9 +1,12 @@
+import { lazy } from 'react';
 import { Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import { Layout } from '@/components';
 import { Paths } from './utils/constants';
-import { IntroPage, ProjectsPage } from './pages';
+import { Layout } from './components';
 
 const { MAIN, PROJECTS } = Paths;
+
+const IntroPage = lazy(() => import('@/pages/intro-page/intro-page'));
+const ProjectsPage = lazy(() => import('@/pages/projects-page/projects-page'));
 
 export const router = createBrowserRouter(
   createRoutesFromElements(

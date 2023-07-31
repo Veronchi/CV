@@ -1,30 +1,29 @@
 import { FC, useEffect, useState } from 'react';
-import { useMediaQuery } from 'react-responsive';
 import './day-night.scss';
 
 const DARK_CLASS = 'dark';
 
 export const DayNight: FC = () => {
-  const systemPrefersDark = useMediaQuery(
-    {
-      query: '(prefers-color-scheme: dark)',
-    },
-    undefined,
-    (prefersDark) => {
-      setIsDarkMode(prefersDark);
-    }
-  );
+  const mode = localStorage.getItem('mode');
 
-  const [isDarkMode, setIsDarkMode] = useState(systemPrefersDark);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const handleMode = () => {
     setIsDarkMode(!isDarkMode);
+
+    if (!isDarkMode) {
+      localStorage.setItem('mode', 'dark');
+    } else {
+      localStorage.setItem('mode', 'light');
+    }
   };
 
   useEffect(() => {
-    if (isDarkMode) {
+    if (mode?.includes('dark')) {
+      setIsDarkMode(true);
       document.documentElement.classList.add(DARK_CLASS);
     } else {
+      setIsDarkMode(false);
       document.documentElement.classList.remove(DARK_CLASS);
     }
   }, [isDarkMode]);

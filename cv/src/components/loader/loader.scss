@@ -1,0 +1,61 @@
+@import '@/styles/constants.scss';
+
+.colorful {
+  width: 40.3px;
+  height: 40.3px;
+  border-radius: 50%;
+  background: $primary-text;
+  transform-origin: top;
+  display: grid;
+  animation: colorful-3vgb5t 0.8s infinite linear;
+  margin: 20% auto;
+
+  @include whenDark {
+    background: $primary-text;
+  }
+}
+
+.colorful::before,
+.colorful::after {
+  content: '';
+  grid-area: 1/1;
+  background: $secondory-text;
+  border-radius: 50%;
+  transform-origin: top;
+  animation: inherit;
+  animation-name: colorful-k94uub;
+
+  @include whenDark {
+    background: $secondory-text;
+  }
+}
+
+.colorful::after {
+  background: $dark-text-primary;
+  --s: 180deg;
+
+  @include whenDark {
+    background: $dark-text-primary;
+  }
+}
+
+@keyframes colorful-3vgb5t {
+  0%,
+  20% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes colorful-k94uub {
+  50% {
+    transform: rotate(var(--s, 90deg));
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Certificates, Intro, Skills } from '@/components';
 
-export const IntroPage: FC = () => {
+const IntroPage: FC = () => {
   return (
     <>
       <Intro />
@@ -12,3 +12,5 @@ export const IntroPage: FC = () => {
     </>
   );
 };
+
+export default IntroPage;
