@@ -28,11 +28,16 @@
     }
   }
 
-  &__name {
+  &__name.vertical-timeline-element-date {
     color: $primary-text;
+    font-size: $fs-m;
 
     @include whenDark {
       color: $dark-text-primary;
+    }
+
+    @media screen and (max-width: $breakpoint-md-min) {
+      font-size: $fs-s;
     }
   }
 
@@ -48,11 +53,15 @@
 
   .vertical-timeline-element-content &__setup {
     @include lato;
+    @include text;
+    font-size: $fs-s;
     color: $primary-text;
     margin: 0;
     margin-bottom: 5px;
 
-    @include text;
+    @media screen and (max-width: $breakpoint-sm-min) {
+      font-size: $fs-xs;
+    }
   }
 
   &__img {
@@ -82,6 +91,10 @@
 
     &:hover {
       box-shadow: 0 0 5px $box-shadow;
+    }
+
+    @media screen and (max-width: $breakpoint-md-min) {
+      font-size: $fs-xs;
     }
   }
 }

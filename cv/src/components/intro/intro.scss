@@ -1,20 +1,33 @@
 @import '@/styles/typography';
+@import '@/styles/constants';
 
 .intro {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 15%;
-  padding-top: 50px;
+  padding-top: 5%;
   margin-bottom: 50px;
+
+  @media screen and (max-width: $breakpoint-md-min) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: $breakpoint-xs-min) {
+    padding-top: 7%;
+  }
 
   &__content {
     width: 400px;
+
+    @media screen and (max-width: $breakpoint-md-min) {
+      width: 100%;
+    }
   }
 
   &__title {
     @include main-title;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
   }
 
   &__subtitle {
@@ -27,12 +40,32 @@
     text-align: left;
     font-size: $fs-m;
     line-height: 30px;
+    margin-bottom: 3%;
+
+    @media screen and (max-width: $breakpoint-lg-min) {
+      font-size: $fs-s;
+      line-height: 28px;
+    }
   }
 }
 
 .avatar {
   max-width: 450px;
   height: 470px;
+
+  @media screen and (max-width: $breakpoint-md-min) {
+    margin-bottom: 1%;
+  }
+
+  @media screen and (max-width: $breakpoint-lg-min) {
+    max-width: 400px;
+    height: 420px;
+  }
+
+  @media screen and (max-width: $breakpoint-xs-min) {
+    max-width: 370px;
+    height: 390px;
+  }
 
   &__img {
     width: 100%;

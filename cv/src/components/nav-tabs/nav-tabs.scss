@@ -32,5 +32,9 @@
         background-color: $box-shadow;
       }
     }
+
+    @media screen and (max-width: $breakpoint-xs-min) {
+      padding: 0 8px 10px;
+    }
   }
 }

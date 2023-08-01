@@ -11,6 +11,15 @@
   @include whenDark {
     color: $dark-text-primary;
   }
+
+  @media screen and (max-width: $breakpoint-lg-min) {
+    font-size: $fs-xl;
+    line-height: 38px;
+  }
+
+  @media screen and (max-width: $breakpoint-xs-min) {
+    font-size: $fs-l;
+  }
 }
 
 @mixin subtitle {
@@ -21,6 +30,14 @@
 
   @include whenDark {
     color: $dark-text-secondery;
+  }
+
+  @media screen and (max-width: $breakpoint-lg-min) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: $breakpoint-xs-min) {
+    font-size: $fs-s;
   }
 }
 
@@ -55,7 +72,6 @@
   font-size: $fs-xs;
   color: $primary-text;
   align-items: center;
-
   background-color: transpareont;
   border-radius: 15px;
   padding: 3px 7px;

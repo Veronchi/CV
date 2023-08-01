@@ -1,6 +1,13 @@
+@import '@/styles/constants.scss';
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 16px;
+
+  @media screen and (max-width: $breakpoint-xxs-min) {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
 }
