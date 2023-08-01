@@ -17,6 +17,7 @@ export enum Technologies {
   FORM = 'React Hook Form',
   EXPRESS = 'Express',
   PSQL = 'PostgreSQL',
+  SEQUELIZE = 'Sequelize',
   WEBPACK = 'Webpack',
   MUI =  'Material UI',
   MANTINE = 'Mantine',

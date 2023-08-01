@@ -13,10 +13,10 @@ export const Intro: FC = () => {
         <h4 className="intro__subtitle">Frontend Developer</h4>
         <h1 className="intro__title">Veranika Miadvedzeva</h1>
         <p className="intro__text">
-          Software Engineer with practical experience in frontend. Solid knowledge of
-          HTML/CSS(SASS), JavaScript, TypeScript, React. Experience working with NodeJS, Express,
-          Sequelize, BEM, Material-UI. Use tools such as Git, Webpack, Figma. Interpersonal
-          communication and collaboration skills.
+          Software Engineer with practical experience in frontend. Solid knowledge of HTML,
+          CSS/SCSS, JavaScript, TypeScript, React, Redux Toolkit. Experience working with NodeJS,
+          Express, Sequelize, Material UI. Using tools such as Git, Webpack, Postman, Figma.
+          Interpersonal communication and collaboration skills.
         </p>
 
         <Contacts />
