@@ -1,1 +1,1 @@
-[My CV](https://veronchi.github.io/CV/cv.html)
+[My CV](https://veronchi-cv.netlify.app/)
