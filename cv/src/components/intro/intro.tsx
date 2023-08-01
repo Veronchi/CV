@@ -15,8 +15,8 @@ export const Intro: FC = () => {
         <p className="intro__text">
           Software Engineer with practical experience in frontend. Solid knowledge of HTML,
           CSS/SCSS, JavaScript, TypeScript, React, Redux Toolkit. Experience working with NodeJS,
-          Express, Sequelize, Material UI. Using tools such as Git, Webpack, Postman, Figma.
-          Interpersonal communication and collaboration skills.
+          Express, PostgreSQL, Sequelize, Material UI. Using tools such as Git, Webpack, Postman,
+          Figma. Interpersonal communication and collaboration skills.
         </p>
 
         <Contacts />
