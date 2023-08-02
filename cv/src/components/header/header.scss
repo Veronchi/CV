@@ -10,4 +10,19 @@
     flex-direction: column-reverse;
     gap: 15px;
   }
+
+  &__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.pdf {
+  color: $primary-text;
+
+  @include whenDark {
+    color: $dark-text-primary;
+  }
 }
