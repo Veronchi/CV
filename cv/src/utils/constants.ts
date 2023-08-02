@@ -1,6 +1,7 @@
 export enum Paths {
   MAIN = '/',
   PROJECTS = 'portfolio',
+  ERROR = '*',
 }
 
 export enum Languages {

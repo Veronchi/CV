@@ -1,0 +1,31 @@
+@import '@/styles/typography';
+@import '@/styles/constants';
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  padding-top: 7%;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    @include main-title;
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    @include subtitle;
+    margin-bottom: 25px;
+  }
+
+  &__btn {
+    @include btn;
+    text-transform: uppercase;
+    padding: 12px 8px;
+  }
+}

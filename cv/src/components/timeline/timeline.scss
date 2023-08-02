@@ -78,23 +78,6 @@
   }
 
   &__link {
-    border: 1px solid transparent;
-    background-color: $label-background;
-    border-radius: 10px;
-    color: $secondory-text;
-    padding: 4px 8px;
-
-    @include whenDark {
-      background-color: $secondory-text;
-      color: $dark-text-secondery;
-    }
-
-    &:hover {
-      box-shadow: 0 0 5px $box-shadow;
-    }
-
-    @media screen and (max-width: $breakpoint-md-min) {
-      font-size: $fs-xs;
-    }
+    @include btn;
   }
 }
