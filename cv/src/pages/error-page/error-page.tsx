@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import notFound from '@/assets/img/not-found.png';
-import './error-page.scss';
 import { Link } from 'react-router-dom';
 import { Paths } from '@/utils/constants';
+import './error-page.scss';
 
 const ErrorPage: FC = () => {
   return (
