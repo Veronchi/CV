@@ -1,7 +1,6 @@
 import { FC, Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Header } from '../header/header';
-import { Loader } from '../loader/lader';
+import { Header, Loader } from '..';
 
 export const Layout: FC = () => {
   return (
