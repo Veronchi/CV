@@ -1,11 +1,11 @@
 import { ReactElement } from 'react';
-import songbird from '@/assets/img/songbird.png';
-import trello from '@/assets/img/trello.png';
-import onlineZoo from '@/assets/img/online-zoo.png';
-import puzzle from '@/assets/img/puzzle.png';
-import zoo from '@/assets/img/zoo.png';
-import rickAndMorty from '@/assets/img/rickMorty.png';
-import graphiql from '@/assets/img/graphiql.png';
+import songbird from '@/assets/img/songbird.jpeg';
+import trello from '@/assets/img/trello.jpeg';
+import onlineZoo from '@/assets/img/online-zoo.jpeg';
+import puzzle from '@/assets/img/puzzle.jpeg';
+import zoo from '@/assets/img/zoo.jpeg';
+import rickAndMorty from '@/assets/img/rickMorty.jpeg';
+import graphiql from '@/assets/img/graphiql.jpeg';
 import HtmlIcon from '@mui/icons-material/Html';
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import { ReactIcon } from '@/assets/icons/react-icon';
