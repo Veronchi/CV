@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { DayNight, NavTabs } from '..';
-import pdf from '@/assets/img/Veranika-Miadvedzeva-CV.pdf';
+import pdf from '@/assets/img/CV-Veranika-Miadvedzeva.pdf';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import './header.scss';
 
